@@ -1,0 +1,21 @@
+{
+  "name": "pino-boom-error-serializer",
+  "version": "1.0.0",
+  "description": "boom-friendly pino error serializer",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmilkiewicz/pino-boom-error-serializer.git"
+  },
+  "keywords": [
+    "boom",
+    "pino",
+    "error-serializer"
+  ],
+  "author": "jmilkiewicz@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^3.0.5"
+  }
+}
