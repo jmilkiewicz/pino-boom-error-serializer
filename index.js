@@ -10,6 +10,6 @@ var boomFriendlyErrorSerializer = function (errorPropertyName, errorSerializer) 
   }
 };
 
-module.exports = boomFriendlyErrorSerializer;
-module.exports.default = boomFriendlyErrorSerializer("errorCause", pino.stdSerializers.err);
+module.exports = boomFriendlyErrorSerializer("errorCause", pino.stdSerializers.err);
+module.exports.with = boomFriendlyErrorSerializer;
 
